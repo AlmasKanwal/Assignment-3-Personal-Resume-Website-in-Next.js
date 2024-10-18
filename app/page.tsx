@@ -1,101 +1,110 @@
-import Image from "next/image";
+import Nav from "./components/navBar";
+import React from "react";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      {/* Basic Information Section */}
+      <section id="basic-info" className="section">
+        <h1>Hi, I'm Almas Kanwal</h1>
+        <h3>Future Web Developer</h3>
+        <p>
+          Aspiring to utilize my academic background and passion for CS(Computer
+          Science) to contribute effectively to a dynamic organization, while
+          continuously learning and enhancing my skills to achieve professional
+          growth and excellence.
+        </p>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+      {/* Skills Section */}
+      <section id="skills-info" className="section">
+        <h3>Skills</h3>
+        <ul>
+          <li>Ms Office</li>
+          <li>Video Editing</li>
+          <li>2D Animation</li>
+          <li>Graphic Designing</li>
+          <li>HTML</li>
+          <li>CSS(Beginner)</li>
+          <li>TypeScript</li>
+          <li>Problem-Solving</li>
+        </ul>
+      </section>
+
+      {/* Education Section */}
+      <section id="education-info" className="section">
+        <h3>Education</h3>
+        <p>
+          <b>Matriculation:</b> From T.C.F(The Citizens Foundation) (2021-2022)
+        </p>
+        <p>
+          <b>Intermediate:</b> ICS From Govt. Degree Boys & Girls College
+          SRE-III, Majeed, Stadium Road (2022-2023)
+        </p>
+        <p>
+          <b>Artificial Intelligence, Web 3.0 & Metaverse:</b>&nbsp;From Governor
+          House Karachi (Ongoing)
+        </p>
+        <p>I am learning web development and enhancing my technical skills.</p>
+      </section>
+
+      {/* Experience Section */}
+      <section id="experience-info" className="section">
+        <h3>Work Experience</h3>
+        <p>
+          No formal job experience yet, but I have completed projects in
+          TypeScript & now learning about HTML, CSS, Next.js
+        </p>
+        <p>
+          <b>Work On My YouTube Channel:</b>
+          </p>
+          <p>
+            <b>Channel Link:</b>
+            <a
+              href="https://www.youtube.com/channel/UCu2rw6nY5yFxZzNzJVDW81Q"
+              target="_blank"
+            >
+              &nbsp;Chamakte Sitare
+            </a>
+          </p>
+        <p>My mother writes the script and does the voiceover as well. I edit videos, create thumbnails, and manage the YouTube channel.</p>
+        <p>Intended to work as Web Developer in the future.</p>
+      </section>
+
+      {/* Portfolio Section */}
+      <section id="portfolio-info" className="section">
+      <h3>Portfolio</h3>
+        <p>
+          You can visit my GitHub repository to check my projects.Link is given
+          below:
+        </p>
+        <p>
+          <b>GitHub:</b>
+          <a href="https://github.com/AlmasKanwal" target="blank">
+          &nbsp;Almas Kanwal GitHub
           </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+        </p>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact-info" className="section">
+        <h3>Contact</h3>
+        <p>
+          <b>Contact No:</b> 03222788665
+        </p>
+        <p>
+          <b>Email:</b>
+          <a href="mailto:areeshayameen15ak@gmail.com" target="blank">
+          &nbsp;areeshayameen15ak@gmail.com
           </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        </p>
+        <p>
+          <b>GitHub:</b>
+          <a href="https://github.com/AlmasKanwal" target="blank">
+          &nbsp;Almas Kanwal GitHub
+          </a>
+        </p>
+      </section>
+    </>
   );
 }

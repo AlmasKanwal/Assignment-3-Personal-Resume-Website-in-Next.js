@@ -2,26 +2,135 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #101820;
+  color: #F4F4F4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container styling */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section styling */
+.section {
+  margin-bottom: 26px;
+}
+
+/* Heading styles */
+h1 {
+  color: #fee715;
+  margin-bottom: 18px;
+  font-size: 30px; 
+}
+
+h3 {
+  color: #0077ff;
+  margin-bottom: 12px; 
+  font-size: 24px; 
+}
+
+/* Paragraph styling */
+p {
+  line-height: 1.5; 
+  margin-bottom: 17px; 
+}
+
+/* Link styles */
+a {
+  color: #fee715; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #0077ff; 
+}
+
+/* Navigation Bar styling */
+.navbar {
+  display: flex;
+  justify-content: center; 
+  padding: 18px;
+  background-color: #fee715;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: #101820;
+}
+
+.navbar ul {
+  display: flex; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.navbar li {
+  list-style: none; 
+  margin: 0 16px; 
+}
+
+.navbar a {
+  color: #101820; 
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: red; 
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .navbar ul {
+    flex-direction: column; 
+  }
+
+  .navbar li {
+    margin: 10px 0; 
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px; 
+  }
+
+  h3 {
+    font-size: 20px; 
+  }
+
+  .section {
+    padding: 10px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@media (max-width: 480px) {
+  .navbar a {
+    font-size: 14px; 
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  h1 {
+    font-size: 22px; 
+  }
+
+  h3 {
+    font-size: 18px; 
   }
 }
