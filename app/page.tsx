@@ -10,7 +10,7 @@ export default function Home() {
       
       {/* Basic Information Section */}
       <section id="basic-info" className="section">
-        <h1>Hi, I'm Almas Kanwal</h1>
+        <h1>Hi, I am Almas Kanwal</h1>
         <h3>Future Web Developer</h3>
         <p>
           Aspiring to utilize my academic background and passion for CS(Computer
