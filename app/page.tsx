@@ -42,7 +42,7 @@ export default function Home() {
           SRE-III, Majeed, Stadium Road (2022-2023)
         </p>
         <p>
-          <b>Artificial Intelligence, Web 3.0 & Metaverse:</b>&nbsp;From Governor
+          <b>Artificial Intelligence, Web 3.0 & Metaverse:</b>`&nbsp;`From Governor
           House Karachi (Ongoing)
         </p>
         <p>I am learning web development and enhancing my technical skills.</p>
@@ -64,7 +64,7 @@ export default function Home() {
               href="https://www.youtube.com/channel/UCu2rw6nY5yFxZzNzJVDW81Q"
               target="_blank"
             >
-              &nbsp;Chamakte Sitare
+              `&nbsp;`Chamakte Sitare
             </a>
           </p>
         <p>My mother writes the script and does the voiceover as well. I edit videos, create thumbnails, and manage the YouTube channel.</p>
@@ -81,7 +81,7 @@ export default function Home() {
         <p>
           <b>GitHub:</b>
           <a href="https://github.com/AlmasKanwal" target="blank">
-          &nbsp;Almas Kanwal GitHub
+          `&nbsp;`Almas Kanwal GitHub
           </a>
         </p>
       </section>
@@ -95,13 +95,13 @@ export default function Home() {
         <p>
           <b>Email:</b>
           <a href="mailto:areeshayameen15ak@gmail.com" target="blank">
-          &nbsp;areeshayameen15ak@gmail.com
+          `&nbsp;`areeshayameen15ak@gmail.com
           </a>
         </p>
         <p>
           <b>GitHub:</b>
           <a href="https://github.com/AlmasKanwal" target="blank">
-          &nbsp;Almas Kanwal GitHub
+          `&nbsp;`Almas Kanwal GitHub
           </a>
         </p>
       </section>
