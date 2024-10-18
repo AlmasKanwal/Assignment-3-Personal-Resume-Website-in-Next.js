@@ -4,6 +4,10 @@ import React from "react";
 export default function Home() {
   return (
     <>
+
+      {/* Navigation Bar */}
+      <Nav />
+      
       {/* Basic Information Section */}
       <section id="basic-info" className="section">
         <h1>Hi, I'm Almas Kanwal</h1>
